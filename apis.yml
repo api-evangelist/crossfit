@@ -1,7 +1,29 @@
 aid: crossfit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crossfit.png
 name: Crossfit
-description: Crossfit is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CrossFit is a fitness brand and training methodology built around constantly
+  varied, high-intensity functional movements that combine strength,
+  conditioning, gymnastics, and weightlifting. The organization operates a
+  global network of independently owned affiliate gyms, delivers a coaching
+  certification and education program (the Level 1 through Level 4 courses and
+  specialty seminars), and produces the annual CrossFit Games competition
+  season. CrossFit was surfaced as a portfolio company of General Catalyst and
+  added to the API Evangelist network as a lead; as of this enrichment pass the
+  company publishes a consumer and affiliate web presence (gym finder, courses,
+  store, Games results) but no public developer portal, API documentation, or
+  machine-readable API definition.
 url: https://raw.githubusercontent.com/api-evangelist/crossfit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,37 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-developer-surface: none-found
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fitness
+- Health and Wellness
+- Sports
+- Education
+- Certification
+- Consumer
+common:
+- type: DomainSecurity
+  url: security/crossfit-domain-security.yml
+- type: Website
+  url: https://www.crossfit.com
+- type: Support
+  url: https://crossfit.my.site.com/Support/s/
+- type: TermsOfService
+  url: https://www.crossfit.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.crossfit.com/privacy-policy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
