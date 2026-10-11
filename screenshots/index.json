@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "crossfit",
+    "captured_at": "2026-10-11T184700",
+    "source_url": "https://www.crossfit.com",
+    "source_type": "Website",
+    "file": "crossfit-2026-10-11T184700.png",
+    "bytes": 389495,
+    "capture": "playwright-local"
+  }
+]
